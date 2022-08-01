@@ -20,12 +20,10 @@ body {
   width: 80%;
   border: 1px solid red;
   margin: auto;
-  height: 100vh;
   background-color: #fff5f9;
 }
 
 .banner {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -66,7 +64,6 @@ nav ul li :hover {
   max-width: 50%;
 }
 
-
 .logo {
   display: flex;
   width: 20%;
@@ -77,6 +74,7 @@ nav ul li :hover {
 .smaller-banner {
   background-color: #0b3260;
   width: 30%;
+  border-top-left-radius: 40px;
 }
 
 .intro-info {
@@ -89,8 +87,13 @@ nav ul li :hover {
 .intro-info p {
   margin-top: 10px;
   padding: 0 10px 0 10px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-align: left;
+}
+
+.intro-info h2 {
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 .intro-info h2,
@@ -112,10 +115,27 @@ nav ul li :hover {
 .intro-image {
   position: relative;
 }
+.explore {
+  padding: 0 10px 0 10px;
+}
 
+.explore button {
+  border-style: none;
+  background-color: #edb40e;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.fa-arrow-right {
+  background-color: #edb40e;
+  padding: 12px;
+  border-radius: 5px;
+}
 .intro-image > img {
   width: 100%;
   position: relative;
+  bottom: 20px;
   right: 150px;
   margin-top: 80px;
   border-radius: 10px;
@@ -137,4 +157,63 @@ nav ul li :hover {
 #make-order:hover {
   background-color: #edb40e;
   transform: scale(1.05);
+}
+
+.img-set-1 img,
+.img-set-2 img {
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.img-set-1 img:hover {
+  transform: scale(1.05);
+}
+
+.img-set-2 img:hover {
+  transform: scale(1.05);
+}
+.img-set-1 #image-1 {
+  position: relative;
+  bottom: 30px;
+}
+.img-set-2 #image-3 {
+  position: relative;
+  bottom: 10px;
+}
+
+.img-set-2 #image-4 {
+  position: relative;
+  top: 30px;
+}
+
+.benefits {
+  display: flex;
+  margin-top: 80px;
+}
+.benefits-content {
+  width: 30%;
+  text-align: center;
+}
+.benefits-content h3 {
+  border-bottom: 2px solid #edb40e;
+}
+
+.benefits-content p {
+  margin-top: 20px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.fa-star {
+  color: #0b3260;
+  margin-right: 10px;
+}
+
+.images {
+  display: flex;
+  width: 60%;
+  padding-bottom: 30px;
 }
