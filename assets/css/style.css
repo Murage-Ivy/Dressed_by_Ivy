@@ -113,9 +113,9 @@ nav ul li :hover {
   font-size: 15px;
 }
 
-.intro-info h4{
-    color: #edb40e;
-    font-size: 40px;
+.intro-info h4 {
+  color: #edb40e;
+  font-size: 40px;
 }
 
 .intro-image {
@@ -217,7 +217,7 @@ nav ul li :hover {
 }
 
 .fa-star {
-  color: #0b3260;
+  color: #edb40e;
   margin-right: 10px;
 }
 
@@ -248,8 +248,18 @@ nav ul li :hover {
 }
 
 .order-steps {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.step {
+  margin-right: 20px;
+  border: 1px solid rgb(91, 97, 150);
+  background-color: #2e308396;
+  border-radius: 10px;
+  padding: 20px 15px 20px 15px;
+  line-height: 1.5;
+  word-spacing: 2px;
 }
 
 .step > span,
