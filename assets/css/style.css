@@ -84,12 +84,12 @@ nav ul li :hover {
   margin-top: 80px;
   line-height: 30px;
   margin-left: 30px;
+  padding: 40px 0px;
 }
 
 .intro-info p {
   margin-top: 10px;
   padding: 0 10px 0 10px;
-  /* font-size: 0.9em; */
   text-align: left;
 }
 
@@ -241,12 +241,33 @@ nav ul li :hover {
 }
 
 .order-services {
-  margin-top: 40px;
-  border-top: 1px solid #edb40e;
+  margin-top: 60px;
+ 
   padding: 20px 10px 10px 10px;
   text-align: center;
 }
 
+
+
+.order-services h5{
+  color: #edb40e;
+  padding: 20px;
+}
+.order-services h3{
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.order-services h3::before{
+  content: '';
+  border-bottom: 2px solid #edb40e;
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  top: 100%;
+}
 .order-steps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -269,4 +290,21 @@ i {
 
 .step > p {
   text-align: left;
+}
+
+.fa-shirt,
+.fa-person-dress,
+.fa-truck {
+  background-color: #edb40e;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  color: #242582;
+  translate: 4ms ease-out all;
+}
+
+.fa-shirt:hover,
+.fa-person-dress:hover,
+.fa-truck:hover {
+  transform: scale(1.15);
 }
