@@ -199,6 +199,7 @@ nav ul li :hover {
 }
 .benefits-content h3 {
   border-bottom: 2px solid #edb40e;
+  letter-spacing: 0.2em;
 }
 
 .benefits-content p {
