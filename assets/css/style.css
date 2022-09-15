@@ -74,7 +74,7 @@ nav ul li :hover {
 }
 
 .smaller-banner {
-  background-color: #0b3260;
+  background-color: #edb40e;
   width: 30%;
   border-top-left-radius: 40px;
 }
@@ -162,9 +162,9 @@ nav ul li :hover {
 }
 
 #make-order:hover {
-  background-color: #edb40e;
+  background-color: white;
   transform: scale(1.05);
-  color: white;
+  color: #edb40e;
 }
 
 .img-set-1 img,
@@ -307,4 +307,11 @@ i {
 .fa-person-dress:hover,
 .fa-truck:hover {
   transform: scale(1.15);
+}
+
+#form{
+  border:1px solid red;
+  text-align: center;
+  width: 50%;
+  margin:auto;
 }
