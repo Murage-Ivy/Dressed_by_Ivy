@@ -80,7 +80,7 @@ nav ul li :hover {
 }
 
 .intro-info {
-  width: 40%;
+  width: 50%;
   margin-top: 80px;
   line-height: 30px;
   margin-left: 30px;
@@ -95,6 +95,10 @@ nav ul li :hover {
 
 .intro-info h2 {
   font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  word-spacing: 2px;
+  line-height: 2;
 }
 
 .intro-info h2,
@@ -115,7 +119,7 @@ nav ul li :hover {
 
 .intro-info h4 {
   color: #edb40e;
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .intro-image {
@@ -132,11 +136,24 @@ nav ul li :hover {
   margin-top: 30px;
   border-radius: 5px;
   font-weight: 500;
+  transition: background 0.5s;
 }
 .fa-arrow-right {
-  background-color: #edb40e;
+  background: transparent;
   padding: 12px;
   border-radius: 5px;
+  border: 2px solid white;
+  transition: background 0.5s;
+}
+.fa-arrow-right:hover {
+  background-color: #edb40e;
+  border: none;
+}
+
+.explore button:hover {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
 }
 .intro-image > img {
   width: 100%;
@@ -371,12 +388,31 @@ textarea {
 .intro-message {
   width: 80%;
 }
-.message > h2, .message > p {
+
+#order-btn {
+  color: black;
   text-align: center;
-  font-size: 20px;
-  
+  border-style: none;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #edb40e;
+  font-weight: bold;
+  transition: background-color 0.5s;
 }
 
+#order-btn:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+.message > h2,
+.message > p {
+  text-align: center;
+  font-size: 20px;
+}
 
 .message ::before {
   content: "";
