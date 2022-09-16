@@ -309,9 +309,51 @@ i {
   transform: scale(1.15);
 }
 
+.contact-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #form{
-  border:1px solid red;
   text-align: center;
   width: 50%;
   margin:auto;
+  padding:10px 10px 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top:50px;
+}
+
+.text{
+  color:black;
+  width:100%;
+  padding:10px;
+  border-radius:20px;
+  border-style: none;
+  border: 2px solid #0b3260;
+  margin-bottom: 20px;
+}
+
+.label{
+  color:black;
+  text-align: left;
+  width:100%;
+  display:block;
+  padding:10px
+}
+
+textarea{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#submit{
+  color:black;
+  border-radius: 15px;
+  padding:10px 30px 10px 30px;
+  border-style: none;
+  background-color: #242582;
+  margin-top: 20px;
 }
